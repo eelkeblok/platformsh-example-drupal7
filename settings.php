@@ -25,7 +25,7 @@ $drupal_hash_salt = '';
 // Set Drupal not to check for HTTP connectivity.
 $conf['drupal_http_request_fails'] = FALSE;
 
-// Include local settings. 
+// Include local settings.
 if (file_exists(__DIR__ . '/settings.local.php')) {
   require_once(__DIR__ . '/settings.local.php');
 }
